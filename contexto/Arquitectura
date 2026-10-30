@@ -1,0 +1,32 @@
+# Arquitentura a utilizar
+- Carpeta LIB:
+  - Carpeta APP:
+    - Un archivo de dart llamado app como enlace con el main y la primera pagina
+  - Carpeta features: dentro de esta carpeta vamos a tener lo que son las pantallas dividividas por ejemplo vamos a tener una carpeta inicio que sera la pantalla de inicio lugo la carpeta de producto y así sucecivamente dentro de esta carpeta feature existiran todas las pantallas como una carpeta.
+    - Luego vamos a tener las carpetas como pantallas como por ejemplo inicio y dentro de inicio existiran las siguientes carpetas data la cual tendra la conxion a la base de datos, carpeta domain este va tener las clases abstractas para obtener la data vamos a tener las interfaces por ejemplo, luego vamos a tener la carpeta de  peresentación deonde vamos a tener 2 carpetas pages que esta nos servira para guardar todas las paginas que tenga que ver con ese proceso luego vamos a tener los widgets que son los componentes que van a mandarse a llamar dentro de las pages para tener todo super ordenado
+- Base de datos a usar de manera local Sqflite o Drift
+
+
+lib/
+├── app/
+│   ├── app.dart
+│   └── tema.dart
+├── features/
+│   └── perfil/
+│       ├── data/
+│       │   └── perfil_api_repository.dart
+│       ├── domain/
+│       │   ├── perfil_repository.dart
+│       │   ├── perfil.dart
+│       │   ├── tarea.dart
+│       │   └── usuario.dart
+│       └── presentation/
+│           ├── pages/
+│           │   └── perfil_page.dart
+│           └── widgets/
+│               ├── estadisticas_perfil.dart
+│               ├── fila_informacion.dart
+│               ├── lista_tareas.dart
+│               ├── perfil_contenido.dart
+│               └── tarjeta.dart
+└── main.dart

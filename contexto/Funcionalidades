@@ -1,0 +1,28 @@
+# Funcionalidades del front-end
+
+1. Inicio: resumen de productos, alertas y accesos rápidos.
+   - En la pagina de inicio hira ordenada de esta manera:
+     - La barra de busqueda ira en la parte superior para poder buscar por codigo.
+     - En la parte inferior estara el boton de crear producto.
+     - A la par dek boton crear producto habra otro boton llamado todos los productos que llevara a la pagina de productos donde estaran todos los productos activos y inactivos.
+     - Luego tendremos el otro boton que diga scanear QR para poder scannear los productos.
+     - En la parte de abajo de este boton estaran los productos:
+       - Los cuales tendran solo el nombre del producto en una card.
+       - Luego tendremos 2 botones abajo los cuales nos ayudaran uno a pasar de activo a inactivo el producto y luego tendremos la de editar el producto que nos llevara al formulario donde nosotros vamos a poder cargar los datos del producto y poder editarlos.
+       - Luego a par del nombre del producto tendremos un boton el cual nos va ayudar a ir a la pagina de detalle del producto donde se mostrara todo como stock precio entre otras cosas.
+    - Pagina de inicio reglas:
+      - En la pagina de inicio solo se mostraran los productos que activos.
+      - En esta barra de busqueda igual solo se podra buscar por codigo y productos que esten activos.
+2. Productos: listado, búsqueda y filtros.
+   - En la pagina de productos hira ordenada de esta manera:
+     - Primero estara la barra de busqueda la cual aquí si se podra buscar los producstos activos y inactivos.
+     - El cual vamos a tener lo que es el mismo componente de arriba que tendra la card con sus dos botones solo que este pasara de inactivo a activo y el boton de editar producto.
+     - luego el boton de detalle del producto.
+3. Formulario de producto: creación y edición.
+4. Detalle del producto: datos, existencias y etiquetas.
+   - En el detalle iran todos los datos del producto y aquí mismo pondremos el boton de moviento para poder ingresar mas stock a ese producto del lado de compras y poder vender mas productos o darle salida a ese producto.
+   - Aquí ira como un pequeño formulario donde llevemos el nombre del producto y el codigo y abajo podremos elegir en un input si es entrada o salida y que tipo ese salida por venta o por daño eso estara en otro documento este el fomulario de la pantalla de moviento
+   - Luego tendremos un boton donde podamos hacer los reportes a un CSV.
+5. Escáner: lectura de códigos de barras y QR.
+6. Movimiento: registro de entradas, salidas y ajustes.
+7. Historial y reportes: consultas y exportación.
